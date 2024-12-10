@@ -19,13 +19,12 @@ Certifique-se de ter os seguintes requisitos instalados:
 
 ### 1. Clone o Repositório
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/alefd2/desafio-1.git
 ```
 
 ### 2. Instale as Dependências
 ```bash
-npm install
+  npm install
 ```
 
 ### 3. Configure o Ambiente
@@ -41,7 +40,7 @@ DATABASE_URL=mongodb://mongo:27017/nest
 Use o arquivo `docker-compose.yml` fornecido para executar o MongoDB:
 
 ```bash
-docker-compose up -d
+  docker-compose up -d
 ```
 
 ### 5. Gere o Cliente Prisma
